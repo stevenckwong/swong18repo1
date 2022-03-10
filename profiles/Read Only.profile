@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+    <classAccesses>
+        <apexClass>MovieOperations</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>MovieOperationsTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
     <custom>true</custom>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Movie__c.Year__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Superhero__c.Super_Power_1__c</field>
@@ -16,6 +29,9 @@
         <field>TrialDemoObject__c.TrialDemoText__c</field>
         <readable>false</readable>
     </fieldPermissions>
+    <layoutAssignments>
+        <layout>Movie__c-Movie Layout</layout>
+    </layoutAssignments>
     <layoutAssignments>
         <layout>TrialDemoObject__c-TrialDemoObject Layout</layout>
     </layoutAssignments>
