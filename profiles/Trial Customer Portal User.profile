@@ -6,6 +6,19 @@
         <field>Superhero__c.Super_Power_1__c</field>
         <readable>false</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>TrialDemoObject__c.TrialDemoCurrency__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>TrialDemoObject__c.TrialDemoText__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <layoutAssignments>
+        <layout>TrialDemoObject__c-TrialDemoObject Layout</layout>
+    </layoutAssignments>
     <userLicense>High Volume Customer Portal</userLicense>
     <userPermissions>
         <enabled>true</enabled>
