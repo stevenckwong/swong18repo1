@@ -18,6 +18,10 @@
                 <behavior>Edit</behavior>
                 <field>Cast_and_Actors__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>IMDB_Link__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
