@@ -154,6 +154,34 @@
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
+        <fullName>Cast_and_Actors__c</fullName>
+        <externalId>false</externalId>
+        <label>Cast and Actors</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>IMDB_Link__c</fullName>
+        <externalId>false</externalId>
+        <label>IMDB Link</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>{!Environment.IMDB_Link}</fullName>
+                    <default>true</default>
+                    <label>{!Environment.IMDB_Link}</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Year__c</fullName>
         <externalId>false</externalId>
         <label>Year</label>
