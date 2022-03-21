@@ -9,7 +9,7 @@ public class ContactControllerTest {
         Test.stopTest();
         // Verify
         // Contact savedContact = [SELECT Description FROM Contact WHERE Id = :con.Id];
-        System.assertEquals('Default Description', con.Description);
+        System.assertEquals('SuperConnect Service', con.Description);
     }
     
     @isTest	static void testContactHasDefaultFirstName() {
