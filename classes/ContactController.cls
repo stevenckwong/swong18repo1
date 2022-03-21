@@ -1,6 +1,6 @@
 public class ContactController {
     public static Contact setDefaultDescription(Contact a) {
-        a.Description = 'Default Description';
+        a.Description = 'SuperConnect Service';
         return a;
     }
 
