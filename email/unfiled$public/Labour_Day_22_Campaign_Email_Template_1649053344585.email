@@ -1,0 +1,15 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hello {{{Recipient.FirstName}}},<br />
+<br />
+As a valued customer, we would like to send you the best gift for the upcoming Labour Day holiday.<br />
+If you do this now, we will send this to you before Labour Day.<br />
+<br />
+Your Environment Specific Gift is : "{!Environment.EmailGift}"<br />
+<br />
+Enjoy this with your friends and family!<br />
+<br />
+Happy Holidays
+</body></html>
